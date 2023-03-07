@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital watch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        section{
+            background-image: url(images/bg.webp);
+        }
+    </style>
+</head>
+<body>
+    <section class="flex justify-center items-center h-screen bg-no-repeat bg-cover">
+        <div class="w-96 shadow-2xl rounded-lg px-4 py-6 md:p-10 backdrop-blur-[4px]">
+            <p id="full-times" class="text-5xl font-bold text-[#1e56a0] rounded-lg text-center mb-4"></p>
+            <p id="full-date" class="text-xl font-bold text-[#1e56a0] rounded-lg text-center gap-6"></p>
+        </div>
+    </section>
+
+    <script src="watch.js"></script>
+</body>
+</html>
